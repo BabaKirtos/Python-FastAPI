@@ -4,8 +4,6 @@ from fastapi import FastAPI, Response, status, HTTPException
 from pydantic import BaseModel
 from random import randrange
 
-# test comment
-
 app = FastAPI()
 
 class Post(BaseModel):
